@@ -1,0 +1,41 @@
+div.title-xagithub {
+	text-align: center;
+	margin-top: -25px!important;
+}
+	div.title-xagithub img {
+		border-radius: 50pt;
+		display: inline-block;
+		margin-right: 5pt;
+		vertical-align: middle;
+	
+	}
+	div.title-xagithub h4 {
+		display: inline-block;
+		vertical-align: middle;
+		
+	}
+
+ul.xagithub {}
+	ul.xagithub li {
+		list-style-image: url(../images/github.png);
+		padding: 5pt 0 5pt 0;
+	}
+	ul.xagithub li:first-child { padding-top: 0; }
+	ul.xagithub li:last-child { 
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+	ul.xagithub li a { 
+		vertical-align: text-bottom;
+		font-style: italic;
+		word-break: break-word;
+	}
+	ul.xagithub li span {
+		color: gray;
+		vertical-align: text-bottom;
+		padding: 2pt 5pt 2pt 5pt;
+		background-color: rgba(10,10,10,0.1);
+	}
+	ul.xagithub li em {
+		padding-right: 5pt;
+	}
